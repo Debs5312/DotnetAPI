@@ -1,0 +1,40 @@
+.body__container__Item2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #473a59;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.body__container__Item2__desc {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.body__container__Item2__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__textInput {
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form__button {
+  padding: 5px 15px;
+  background-color: #ed4407;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all, 0.3s;
+}
+
+.form__button:hover {
+  transform: scale(1.2, 1.2);
+}

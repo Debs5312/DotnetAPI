@@ -1,0 +1,76 @@
+.body__container__Item3__comment__card {
+  max-width: 80%;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.body__container__Item3__comment__card:nth-child(1) {
+  margin-top: 30px;
+}
+
+.card__logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.update {
+  display: flex;
+  align-items: center;
+}
+
+.update__item {
+  padding: 2px 5px;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+
+.update__submit__button {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: rgb(88, 17, 1);
+  transition: all 0.3s;
+}
+
+.update__submit__button:hover {
+  opacity: 0.8;
+}
+
+.card__content {
+  font-size: 20px;
+}
+
+.editicon,
+.deleteicon {
+  font-size: 20px;
+  align-self: flex-end;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  transition: all 0.3s;
+}
+
+.editicon {
+  margin-left: 20px;
+}
+
+.deleteicon {
+  margin-left: 7px;
+}
+
+.editicon:hover,
+.deleteicon:hover {
+  transform: scaleX(1.5) scaleY(1.2);
+  cursor: pointer;
+}

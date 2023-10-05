@@ -1,0 +1,59 @@
+.navBar__container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background: linear-gradient(45deg, #170142, #2f02a3);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navBar__Item1 {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    padding: 5px;
+}
+
+.navBar__Item1 img {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+.navBar__Item1 p {
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.navBar__Item2 {
+    padding: 10px;
+}
+
+.navBar__List {
+    display: flex;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.navBar__Listitem {
+    padding: 0px 10px;
+}
+
+.navBar__Listitem a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.navBar__Listitem a:hover {
+    background-color: red;
+    color: #dfdfdf;
+    padding: 5px;
+    transform: scale(1.5);
+}

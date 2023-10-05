@@ -1,0 +1,17 @@
+.footbar__container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: content;
+  height: 50px;
+  z-index: 10;
+}
+
+.footbar__container__note {
+  margin: auto;
+  font-size: large;
+}
